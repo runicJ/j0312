@@ -6,7 +6,7 @@ public class Exception1_ClassNotFound {
 		// java.lang.Object
 		
 		try {
-			Class.forName("java.lang.Object2");  // 클래스가 있든없든 발생 forname 클래스객체로 클래스파일을 찾음
+			Class.forName("java.lang.Object2");  // 클래스가 있든없든 발생 forname 클래스객체로 클래스파일 이름을 찾음
 			System.out.println("java.lang패키지에는 Object2클래스가 있습니다.");
 		} catch (ClassNotFoundException e) {  // e는 변수 아무거나 넣어도 됨. // console에서 복사해서 넣어서봄 //(exception e)해도됨
 			//System.out.println("java.lang패키지에는 Object2클래스가 없습니다.");
