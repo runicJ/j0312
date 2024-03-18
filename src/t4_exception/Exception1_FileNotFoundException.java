@@ -8,7 +8,7 @@ public class Exception1_FileNotFoundException {
 		
 			try {
 				//FileInputStream is = new FileInputStream("test1.txt");
-				FileInputStream is = new FileInputStream("D:\\javaclass\\java\\works\\j0312\\src\\t4_exception\\Exception1_ClassNotFound.java"); //절대경로 //리눅스는 /
+				FileInputStream is = new FileInputStream("D:\\javaclass\\java\\works\\j0312\\src\\t4_exception\\Exception1_ClassNotFound.java"); //절대경로 //리눅스는 '/'
 				System.out.println("test.txt파일이 존재합니다.");
 			} catch (FileNotFoundException e) {
 				System.out.println("test.txt파일이 없습니다.");

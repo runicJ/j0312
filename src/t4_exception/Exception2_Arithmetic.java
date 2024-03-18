@@ -10,7 +10,7 @@ public class Exception2_Arithmetic {
 			System.out.println("정상처리");
 		} catch (ArithmeticException e) {  //그냥 try~catch 하면 가장 상위 Exception e로 나옴
 			//e.printStackTrace();  //오류메시지
-			System.out.println("예외처리" + e.getMessage());  //기본 오류메시지			
+			System.out.println("예외처리 " + e.getMessage());  //기본 오류메시지			
 		}
 		System.out.println("작업끝");
 	}
